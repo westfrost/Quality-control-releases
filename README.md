@@ -1,12 +1,12 @@
-# InduMove Kvalitetskontrol — udgivelser
+# Kvalitetskontrol — udgivelser
 
-Her ligger den nyeste byggede udgave af programmet, og intet andet.
+Byggede udgaver af et lille Windows-program til kvalitetskontrol.
 
 * `EgenKontrol.exe` — programmet
 * `version.json` — versionsnummer og sha256-sum
 
-Filerne bygges automatisk fra kildekoden, som ligger i et privat repo.
-Programmet spørger selv denne side, om der er en nyere version, og det
-er derfor, siden er offentlig — så det kan ske uden nøgler i exe-filen.
+Programmet henter selv denne side for at se, om der er en nyere
+udgave. Derfor er siden offentlig: så det kan ske uden nogen form
+for nøgle i programfilen.
 
-Der gemmes kun den nyeste udgave. Den forrige erstattes ved hver udgivelse.
+Der gemmes kun den nyeste udgave. Kildekoden ligger et andet sted.
